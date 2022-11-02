@@ -250,8 +250,8 @@ section:target {
 
 .timeline-box .logo-and-heading>img {
     /* border: 1px solid green; */
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     border-radius: 8px;
 }
 
@@ -267,7 +267,7 @@ section:target {
 .timeline-box-heading>p:nth-child(2) {
     /* border: 1px solid orchid; */
     color: #ff5722;
-    font-size: 10px;
+    font-size: 13px;
     text-align: end;
     margin: 5px 0px;
 }
@@ -275,7 +275,7 @@ section:target {
 .timeline-box-heading>p:nth-child(3) {
     /* border: 1px solid orchid; */
     color: gray;
-    font-size: 10px;
+    font-size: 12px;
     text-align: end;
     margin: 0;
 }
@@ -285,7 +285,7 @@ section:target {
     color: gray;
     font-size: large;
     word-spacing: 1px;
-    word-break: break-all;
+    word-break: break-words;
 }
 
 .timeline-divider {
@@ -545,19 +545,29 @@ button:focus {
     width: 0%;
 } */
 
-.eighty-percent {
+.fifty-percent {
     height: inherit;
-    width: 80%;
-}
-
-.eighty-five-percent {
-    height: inherit;
-    width: 80%;
+    width: 50%;
 }
 
 .seventy-five-percent {
     height: inherit;
     width: 75%;
+}
+
+.seventy-percent {
+    height: inherit;
+    width: 70%;
+}
+
+.sixty-percent{
+    height: inherit;
+    width: 60%;
+}
+
+.ninty-percent{
+    height: inherit;
+    width: 80%;
 }
 
 /* common margin classes */
