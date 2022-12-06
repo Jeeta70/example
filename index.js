@@ -1,5 +1,27 @@
 // const skillsSection = document.getElementById("skills");
 // const skillBar = document.getElementById("java");
+
+const username = document.getElementById("input-name");
+const email = document.getElementById("input-email");
+const message = document.getElementById("input-message");
+const form = document.getElementById("contact-form");
+const errorElement = document.getElementById("input-name-error");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+
+  if (username.value === "") {
+    alert("Please the username field");
+  } else if (email.value === "") {
+    alert("Please the email field");
+  } else if (message.value === "") {
+    alert("Please send message");
+  }else{
+    alert("Hurray message is successfuly send !!")
+  }
+});
+
 // let visible = false;
 // let initial = 0;
 
